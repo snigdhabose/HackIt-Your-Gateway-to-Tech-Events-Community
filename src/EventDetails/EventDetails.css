@@ -1,0 +1,211 @@
+/* EventDetails.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p{
+color: #868282;
+}
+
+.event-heading-color{
+  color:whitesmoke;
+}
+
+.small-text{
+  font-size: small;
+}
+
+.medium-text{
+  font-size: medium;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 400px;
+  background-size: cover;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: url('https://crafthub.events/wp-content/uploads/287518876_5033265326781884_5497190112367581962_n.jpg') center/cover;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  height:300px;
+  background-size: cover;
+}
+
+.event-details {
+  max-width: 100%;
+  padding: 30px;
+  background-color: black;
+
+}
+
+.date {
+  font-size: medium;
+}
+
+.event-heading {
+  text-align: left;
+  max-width: 80%;
+}
+
+.title-and-heart {
+  display: flex;
+  align-items: center;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag-style{
+  margin-top: 10px;
+  border-radius: 48px;
+}
+.tags span {
+  display: inline-block;
+  background-color: #FF013C;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.color-palette{
+  color:#FF013C;
+}
+.organizer {
+  margin-top: 20px;
+}
+
+
+.register-button {
+  background-color: #FF013C;
+  color: #fff;
+  padding: 16px 24px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.register-button:hover{
+  opacity:0.5;
+}
+
+.event-details * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-form {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 30%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Disable hover effect when the button is disabled */
+.register-button:disabled {
+  cursor: not-allowed;
+  background-color: #FF013C;
+  color: #fff;
+  opacity: 1;
+}
+
+.bookmarked {
+  color: #FF013C;
+}
+
+.fa-bookmark {
+  font-size: 34px; 
+}
+
+.organized-by-box {
+  background-color: rgba(255, 1, 60, 0.7);
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  max-width: 200px;
+  text-align: center;
+
+}
+
+.organized-by-box:hover {
+  background-color: rgba(255, 1, 60, 1);
+}
+
+.organizer-icon {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  background-color: #FFFFFF; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px; 
+}
+
+.organizer-name {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.organizer-icon img {
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: cover; 
+}
+
+
+
+@media (max-width: 768px) {
+ 
+  .buttons {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    height: 15%;
+    margin-top: 3px;
+  }
+
+  .fa-bookmark {
+    margin-top: 10px;
+  }
+
+  .header {
+    height: 700px;
+  }
+ 
+}

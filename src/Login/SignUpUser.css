@@ -1,0 +1,68 @@
+/* SignUp.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* background: url('https://crafthub.events/wp-content/uploads/287518876_5033265326781884_5497190112367581962_n.jpg') center/cover !important; */
+}
+
+.signup-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Adjust the alpha value for the desired lightness */
+  border-radius: 8px;
+  margin: auto;
+  width: 400px; /* Adjust the width as needed */
+  height: 400px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* SignUp.css */
+
+h1.signup-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #0a0909; /* Dark color for the text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0a0909; /* Dark color for labels */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #868282;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.signup-button {
+  padding: 15px 30px; /* Adjust padding for larger buttons */
+  font-size: 1.2em; /* Adjust font size for larger buttons */
+  cursor: pointer;
+  background-color: #ff013c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #e58299;
+}

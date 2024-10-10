@@ -1,0 +1,42 @@
+.avatar {
+  /* Add other styles as needed */
+  display: inline-block;
+}
+
+.avatar-lg {
+  width: 150px !important; /* Set the width to 200px or your desired size */
+  height: 150px !important; /* Set the height to 200px or your desired size */
+  line-height: 150px !important; /* Center the text vertically within the circle */
+  text-align: center !important;
+  border-radius: 50% !important; /* Set the radius to 50% to create a circle */
+  background: linear-gradient(45deg, #4389d4, rgb(255, 64, 0)) ; /* Use your desired gradient colors */
+  color: #ffffff !important; /* Customize the text color */
+  font-size: 40px !important; /* Customize the font size */
+  font-weight: bold !important; /* Customize the font weight */
+
+  /* Remove display: flex; */
+}
+
+
+.avatar-container {
+  text-align: center;
+}
+
+/* Search Bar */
+.container {
+  text-align: center;
+}
+
+.form-control {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* User Cards */
+.avatar-container {
+  text-align: center;
+}
